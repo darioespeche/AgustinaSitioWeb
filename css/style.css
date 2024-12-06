@@ -183,4 +183,35 @@ p.text-center {
   line-height: 1.6;
 }
 
+.bienvenida {
+  display: flex; /* Alinea los elementos en fila */
+  justify-content: space-between; /* Espacio entre texto e imagen */
+  align-items: center; /* Centra verticalmente */
+}
+.bienvenida .texto {
+  flex: 1;
+  padding: 10px; /* Espaciado alrededor del texto */
+  text-align: left; /* Alinea el texto a la izquierda */
+}
+.bienvenida .imagen {
+  flex: 1; /* La imagen también ocupa un espacio flexible */
+  padding: 10px; /* Espaciado alrededor de la imagen */
+  display: flex; /* Por si acaso la imagen necesita centrarse */
+  justify-content: center;
+}
+.bienvenida .ilustraciones {
+  max-width: 30%; /* Asegura que la imagen no sobresalga */
+  height: auto; /* Mantén las proporciones */
+}
+
+@media (max-width: 768px) {
+  .bienvenida {
+    flex-direction: column; /* Cambia la dirección a columna */
+    text-align: center; /* Centra el texto */
+  }
+  .imagen {
+    margin-top: 20px; /* Agrega espacio entre el texto y la imagen */
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
