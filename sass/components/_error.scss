@@ -29,18 +29,10 @@
         border-radius: 5px;
 
         &:hover {
-            background-color: darken(vars.$secondary-color, 10%);
+            background-color: vars.$secondary-color;
         }
     }
 }
 
-.img-404 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px; /* Espacio entre imagen y texto */
-    img {
-        max-width: 200px; /* Ancho máximo */
-        height: auto; /* Mantén proporciones */
-    }
-}
+
+
