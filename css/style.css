@@ -243,4 +243,15 @@ p.text-center {
   background-color: rgba(250.9520547945, 134.9109589041, 62.0479452055, 0.8980392157);
 }
 
+.img-404 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Espacio entre imagen y texto */
+}
+.img-404 img {
+  max-width: 200px; /* Ancho máximo */
+  height: auto; /* Mantén proporciones */
+}
+
 /*# sourceMappingURL=style.css.map */
